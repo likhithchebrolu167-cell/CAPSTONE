@@ -1,0 +1,11 @@
+{
+  "name": "workpulse-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "server": "cd server && node server.js",
+    "client": "cd client && npm run dev"
+  }
+}
+
